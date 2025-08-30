@@ -4,6 +4,8 @@ const cors = require('cors');
 const storage = require('./storage');
 const app = express();
 
+app.use(express.static('.'));
+
 app.use(cors());
 app.use(bodyParser.json());
 
