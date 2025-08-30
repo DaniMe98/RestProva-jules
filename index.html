@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delizia Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Delizia Pizza</h1>
+        <p>Fresh. Hot. Delicious.</p>
+    </header>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="pizza-card">
+                <h3>Margherita</h3>
+                <p>Classic tomato sauce, mozzarella, and basil</p>
+                <span>$10.00</span>
+            </div>
+            <div class="pizza-card">
+                <h3>Pepperoni</h3>
+                <p>Pepperoni, mozzarella, and tomato sauce</p>
+                <span>$12.00</span>
+            </div>
+            <div class="pizza-card">
+                <h3>Veggie Lovers</h3>
+                <p>Bell peppers, onions, mushrooms, olives, mozzarella</p>
+                <span>$11.00</span>
+            </div>
+            <div class="pizza-card">
+                <h3>BBQ Chicken</h3>
+                <p>BBQ chicken, red onions, cilantro, mozzarella</p>
+                <span>$13.00</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservationForm">
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-row">
+                <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9+\s()-]{7,}">
+                <input type="number" name="guests" placeholder="Guests" min="1" max="20" required>
+            </div>
+            <div class="form-row">
+                <input type="date" name="date" required>
+                <input type="time" name="time" required>
+            </div>
+            <button type="submit">Reserve Table</button>
+            <div id="reservationSuccess" class="reservation-success" style="display:none;">
+                Thank you for your reservation! We look forward to seeing you.
+            </div>
+        </form>
+    </section>
+
+    <section class="address">
+        <h2>Visit Us</h2>
+        <p>123 Pizza Lane, Flavor Town, FT 45678</p>
+        <p>Open Daily: 11am - 10pm</p>
+        <p>Phone: (555) 123-4567</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Delizia Pizza. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
