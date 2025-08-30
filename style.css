@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8f7f3;
+    color: #222;
+}
+.hero {
+    background: linear-gradient(115deg, #ffcb74 0%, #ff8c42 100%);
+    color: #fff;
+    padding: 3rem 1rem 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+.hero h1 {
+    font-size: 3rem;
+    margin: 0 0 0.5rem 0;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.menu {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.menu h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ff8c42;
+    letter-spacing: 2px;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.pizza-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.05);
+    padding: 1.5rem 1.2rem;
+    width: 230px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.pizza-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 4px 18px rgba(255,140,66,0.1);
+}
+.pizza-card h3 {
+    color: #ff8c42;
+    margin-top: 0;
+}
+.pizza-card span {
+    font-weight: bold;
+    color: #3c2f12;
+    font-size: 1.1rem;
+}
+.reservation {
+    background: #fff8ee;
+    padding: 2.5rem 1rem;
+    max-width: 700px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(255,140,66,0.08);
+}
+.reservation h2 {
+    color: #ff8c42;
+    margin-bottom: 1rem;
+}
+#reservationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.form-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.form-row input {
+    flex: 1 1 170px;
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: 1px solid #e9d2b7;
+    font-size: 1rem;
+    outline: none;
+}
+.form-row input:focus {
+    border-color: #ff8c42;
+}
+button[type="submit"] {
+    background: #ff8c42;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(255,140,66,0.07);
+    transition: background 0.18s;
+}
+button[type="submit"]:hover {
+    background: #e6761c;
+}
+.reservation-success {
+    margin-top: 1.2rem;
+    color: #28a745;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.address {
+    background: #fff;
+    padding: 2rem 1rem 1.5rem 1rem;
+    max-width: 700px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255,140,66,0.07);
+    text-align: center;
+}
+.address h2 {
+    color: #ff8c42;
+    margin-bottom: 0.6rem;
+}
+footer {
+    background: #ffcb74;
+    color: #3c2f12;
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+    .menu-items {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .pizza-card {
+        width: 98%;
+    }
+    .form-row {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+}
