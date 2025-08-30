@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delizia Pizza Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .admin-section { max-width: 750px; margin: 2rem auto; background: #fff8ee; border-radius: 12px; padding: 2rem; }
+        .admin-section h2 { color: #ff8c42; }
+        .login-form input[type="password"] { margin-right: 0.5rem; }
+        .reservation-table { width: 100%; border-collapse: collapse; }
+        .reservation-table th, .reservation-table td { border: 1px solid #e9d2b7; padding: 8px; text-align: left; }
+        .reservation-table th { background: #ffcb74; }
+        .field-list input, .field-list select { margin-bottom: 0.5rem; }
+        .logout-btn { margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="admin-section" id="adminApp">
+        <div id="loginView">
+            <h2>Admin Login</h2>
+            <form class="login-form" id="loginForm">
+                <input type="password" id="adminPass" placeholder="Admin password" required>
+                <button type="submit">Login</button>
+            </form>
+            <div id="loginError" style="color: red; display: none;">Wrong password!</div>
+        </div>
+        <div id="dashboardView" style="display:none;">
+            <h2>Reservations Dashboard</h2>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+            <h3>All Reservations</h3>
+            <table class="reservation-table" id="reservationsTable">
+                <thead><tr id="tableHead"></tr></thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+            <h3>Edit Reservation Fields</h3>
+            <form id="fieldsForm"></form>
+            <button id="saveFieldsBtn">Save Fields</button>
+            <div id="fieldsMsg" style="color:green;display:none;">Fields updated!</div>
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>

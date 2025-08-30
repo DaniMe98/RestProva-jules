@@ -1,0 +1,8 @@
+[
+  { "name": "name", "label": "Your Name", "type": "text", "required": true },
+  { "name": "email", "label": "Your Email", "type": "email", "required": true },
+  { "name": "phone", "label": "Phone Number", "type": "tel", "required": true },
+  { "name": "guests", "label": "Guests", "type": "number", "required": true, "min": 1, "max": 20 },
+  { "name": "date", "label": "Date", "type": "date", "required": true },
+  { "name": "time", "label": "Time", "type": "time", "required": true, "options": ["11:00", "12:00", "13:00", "18:00", "19:00", "20:00"] }
+]
