@@ -1,0 +1,19 @@
+{
+  "faqs": [
+    {
+      "intent": "orari",
+      "question": "Quali sono i vostri orari?",
+      "answer": "Siamo aperti dal lunedì al venerdì dalle 9:00 alle 18:00."
+    },
+    {
+      "intent": "prezzi",
+      "question": "Quali sono i vostri prezzi?",
+      "answer": "I nostri prezzi variano in base al servizio. Visita la pagina dei prezzi per maggiori dettagli."
+    },
+    {
+      "intent": "indirizzo",
+      "question": "Dove vi trovate?",
+      "answer": "Ci troviamo in Via Roma 123, Milano."
+    }
+  ]
+}

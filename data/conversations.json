@@ -1,0 +1,70 @@
+{
+  "conversations": [
+    {
+      "sessionId": "session_bubnzaueega",
+      "messages": [
+        {
+          "sender": "user",
+          "message": "ciao",
+          "timestamp": "2025-08-21T14:43:43.549Z"
+        },
+        {
+          "sender": "bot",
+          "message": "Mi dispiace, non ho capito la tua domanda. Puoi chiedere informazioni su orari, prezzi o indirizzo.",
+          "timestamp": "2025-08-21T14:43:43.559Z"
+        },
+        {
+          "sender": "user",
+          "message": "info",
+          "timestamp": "2025-08-21T14:43:48.244Z"
+        },
+        {
+          "sender": "bot",
+          "message": "Mi dispiace, non ho capito la tua domanda. Puoi chiedere informazioni su orari, prezzi o indirizzo.",
+          "timestamp": "2025-08-21T14:43:48.254Z"
+        },
+        {
+          "sender": "user",
+          "message": "preai",
+          "timestamp": "2025-08-21T14:43:53.521Z"
+        },
+        {
+          "sender": "bot",
+          "message": "Mi dispiace, non ho capito la tua domanda. Puoi chiedere informazioni su orari, prezzi o indirizzo.",
+          "timestamp": "2025-08-21T14:43:53.527Z"
+        },
+        {
+          "sender": "user",
+          "message": "prezzi",
+          "timestamp": "2025-08-21T14:43:55.703Z"
+        },
+        {
+          "sender": "bot",
+          "message": "I nostri prezzi variano in base al servizio. Visita la pagina dei prezzi per maggiori dettagli.",
+          "timestamp": "2025-08-21T14:43:55.712Z"
+        },
+        {
+          "sender": "user",
+          "message": "ok",
+          "timestamp": "2025-08-21T14:44:00.216Z"
+        },
+        {
+          "sender": "bot",
+          "message": "Mi dispiace, non ho capito la tua domanda. Puoi chiedere informazioni su orari, prezzi o indirizzo.",
+          "timestamp": "2025-08-21T14:44:00.226Z"
+        },
+        {
+          "sender": "user",
+          "message": "orari",
+          "timestamp": "2025-08-21T14:44:16.286Z"
+        },
+        {
+          "sender": "bot",
+          "message": "Siamo aperti dal lunedì al venerdì dalle 9:00 alle 18:00.",
+          "timestamp": "2025-08-21T14:44:16.298Z"
+        }
+      ],
+      "startedAt": "2025-08-21T14:43:43.548Z"
+    }
+  ]
+}
