@@ -72,5 +72,19 @@
     </footer>
 
     <script src="script.js"></script>
+    
+        <!-- Integrazione del chatbot widget -->
+    <script src="js/chatbot-widget.js"></script>
+    <script>
+        // Inizializzazione del chatbot
+        document.addEventListener('DOMContentLoaded', function() {
+            initChatbot({
+                welcomeMessage: "Ciao! Come posso aiutarti oggi?",
+                position: "bottom-right",
+                primaryColor: "#4a90e2",
+                title: "Assistente Virtuale"
+            });
+        });
+    </script>
 </body>
 </html>
