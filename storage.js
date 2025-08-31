@@ -9,10 +9,11 @@ const jsonPath = path.join(__dirname, 'reservations.json');
 
 // Configurazione MySQL (modifica con i tuoi dati se necessario)
 const dbConfig = {
-  host: process.env.MYSQL_HOST || 'http://sql7.freesqldatabase.com/',
-  user: process.env.MYSQL_USER || 'sql7795836',
-  password: process.env.MYSQL_PASSWORD || 'Lu8YUH21A5',
-  database: process.env.MYSQL_DATABASE || 'sql7795836'
+  host: process.env.MYSQL_HOST || 'sql7.freesqldatabase.com',
+  user: process.env.MYSQL_USER || 'sql7796806',
+  port: process.env.port || '3306',
+  password: process.env.MYSQL_PASSWORD || 'ChPNRItV4J',
+  database: process.env.MYSQL_DATABASE || 'sql7796806'
 };
 
 let pool;
